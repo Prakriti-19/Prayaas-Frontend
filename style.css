@@ -177,7 +177,7 @@ h2, p {
 }
 
 #about{
-  font-size: 50px;
+  font-size: 3vw;
   padding: 3vw 15vw;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -198,4 +198,34 @@ h2, p {
 .menu-link:visited h3,
 .menu-link:active h3 {
   color: rgb(85, 85, 85);
+}
+
+.events-section {
+  margin: 0 8%;
+  width: 84%;
+  height: 41vw;
+  background-color: #ff6347;
+  border-radius: 18px;
+  display: flex; /* Enable Flexbox */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Adjust spacing between image and text */
+  padding: 20px; /* Optional padding inside the section */
+}
+
+.content-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.event-image{
+  width: 30em;
+  height: 35em;
+  margin: 2vw;
+  border-radius: 12px;
+}
+
+.event-text{
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5vw;
 }
